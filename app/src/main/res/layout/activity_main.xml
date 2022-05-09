@@ -18,17 +18,22 @@
         android:id="@+id/txt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="" />
+        android:numeric="integer"
+        android:text=""
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/txt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:numeric="integer"
         android:text=""
-        />
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/botao"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:text="Comparar"
+        />
 </LinearLayout>
